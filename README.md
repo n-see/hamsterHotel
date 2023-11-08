@@ -1,0 +1,2 @@
+# hamsterHotel
+Challenge #2
