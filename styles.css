@@ -1,6 +1,12 @@
+.navStuff{
+    border: 2px solid green;
+}
 .logoLinks{
+    display: flex;
+    justify-content: center;
     background-color: #000324 !important;
     color: white !important;
+    border: 2px red solid;
 }
 .reserve{
     top: 80px;
@@ -32,10 +38,30 @@
     justify-content: center;
     z-index: 1;
 }
+.paradise{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.hamsterChairImg{
+    width: 369px;
+    height: 416px;
+}
 .awards{
     border: 2px red solid;
+    padding-bottom: 50px;
 }
 .awardsImg{
-    display:flex;
+    display: flex;
     justify-content: space-around;
+}
+.coltext{
+    border: 2px green solid;
+}
+.roomText{
+    text-align: center;
+}
+.roomCard{
+    display:flex;
+    justify-content: center;
 }
