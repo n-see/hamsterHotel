@@ -1,42 +1,45 @@
 .navStuff{
-    border: 2px solid green;
+    background-color: #000324 !important;
 }
-.logoLinks{
+.navBox{
     display: flex;
     justify-content: center;
-    background-color: #000324 !important;
+}
+.nav-item{
+    display: flex;
+    align-items: flex-end;
+}
+.logoLinks{
     color: white !important;
-    border: 2px red solid;
 }
 .reserve{
-    top: 80px;
-    left: 1287px;
-    width: 92px;
-    height: 33px;
     text-align: center;
     border: 2px solid #E5FEFF;
     opacity: 1;
+    
 }
 .hero{
+    background: url("/hotelMarkupAssets/header.jpg") no-repeat center;
+    background-size: cover;
+    height: 500px;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 2px solid blue;
+    padding: none;
+    margin: none;
 }
-.heroImg{
-    z-index: 0;
-}
+
 .hook{
-    display: flex;
-    background: #000324 0% 0% no-repeat padding-box;
+    background: #000324;
+    padding: 50px 150px 50px 100px;
     opacity: 0.8;
     color: #E5FEFF;
-    text-align: center;
-    border: 2px solid blue;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    z-index: 1;
+    border: 2px solid orange;
+}
+.hookBody{
+    border:2px blue solid ;
 }
 .paradise{
     display: flex;
@@ -58,10 +61,14 @@
 .coltext{
     border: 2px green solid;
 }
-.roomText{
-    text-align: center;
-}
 .roomCard{
+    margin: 5px;
+    border: aqua 2px solid;
+    text-align: left;
+}
+.roomBox{
     display:flex;
     justify-content: center;
+    border: orange 2px solid;
+    text-align: center;
 }
