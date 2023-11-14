@@ -1,3 +1,4 @@
+/* Navbar */
 .navStuff{
     background-color: #000324 !important;
 }
@@ -18,10 +19,12 @@
     opacity: 1;
     
 }
+/* Hero Section */
+
 .hero{
     background: url("/hotelMarkupAssets/header.jpg") no-repeat center;
     background-size: cover;
-    height: 500px;
+    height: 30em;
     position: relative;
     display: flex;
     justify-content: center;
@@ -33,7 +36,7 @@
 
 .hook{
     background: #000324;
-    padding: 50px 150px 50px 100px;
+    padding: 50px 150px 50px 150px;
     opacity: 0.8;
     color: #E5FEFF;
     border: 2px solid orange;
@@ -46,14 +49,18 @@
     justify-content: space-around;
     
 }
-.hamsterChairImg{
-    width: 369px;
-    height: 416px;
-}
+/* Overview */
+
 .awards{
     border: 2px red solid;
     padding-bottom: 50px;
+    margin-top: 30px;
 }
+.hamsterChairImg{
+    width: 100%;
+    height: 80%;
+}
+
 .awardsImg{
     display: flex;
     justify-content: space-around;
@@ -61,8 +68,13 @@
 .coltext{
     border: 2px green solid;
 }
+
+/* Our Rooms */
+.rooms{
+    background: url("./hotelMarkupAssets/bg2.jpg") no-repeat center;
+}
 .roomCard{
-    margin: 5px;
+    margin: 10px;
     border: aqua 2px solid;
     text-align: left;
 }
@@ -70,5 +82,50 @@
     display:flex;
     justify-content: center;
     border: orange 2px solid;
+    text-align: Center;
+    color: white;
+    margin: 60px;
+}
+.headingText{
     text-align: center;
+}
+.packages{
+    border: 2px yellow solid;
+}
+.blueText{
+    color: #1F51A8;
+}
+.hamsterWedding{
+    width: 100%;
+    height: 75%;
+}
+.weddingImg{
+    border: 2px purple solid;
+}
+.weddingText{
+    border: blue 2px solid;
+}
+.allPackge{
+    padding: 0px;
+}
+
+/* Amenites */
+.amenitiesPage{
+    background: url("./hotelMarkupAssets/bg.jpg") no-repeat center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: white;
+    border: 2px solid red;
+    padding-top: 5em;
+    padding-bottom: 10em;
+}
+.amenitiesOption{
+    margin-top: 4em;
+}
+.amenImg{
+    width: 50%;
+}
+.valet{
+    width: 30%;
 }

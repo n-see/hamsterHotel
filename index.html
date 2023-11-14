@@ -32,25 +32,25 @@
         <div class="collapse navbar-collapse navBox" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link logoLinks" href="#">Overview</a>
+              <a class="nav-link logoLinks" href="#overview">Overview</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link logoLinks" href="#">Rooms</a>
+              <a class="nav-link logoLinks" href="#rooms">Rooms</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link logoLinks" href="#">Packages</a>
+              <a class="nav-link logoLinks" href="#packages">Packages</a>
             </li>
             <a class="navbar-brand" href="#"
               ><img src="hotelMarkupAssets/Logo.png"
             /></a>
             <li class="nav-item">
-              <a class="nav-link logoLinks" href="#">Amenities</a>
+              <a class="nav-link logoLinks" href="#amenities">Amenities</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link logoLinks" href="#">Contact</a>
+              <a class="nav-link logoLinks" href="#contact">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link logoLinks reserve" href="#">Reserve</a>
+              <a class="nav-link logoLinks reserve" href="#reserve">Reserve</a>
             </li>
           </ul>
         </div>
@@ -63,7 +63,7 @@
       <div class="row">
         <div class="card hook">
           <div class="card-body hookBody">
-            <h1>Run on the wheel of luxury</h1>
+            <h1 id="overview">Run on the wheel of luxury</h1>
             <p>
               Explore everything the beach has to offer in our relaxing resort.
             </p>
@@ -110,12 +110,9 @@
     <!-- Rooms Section -->
     <div class="container-fluid rooms">
       <div class="row">
-        <div clas="lobby-darken">
-          <img src="/hotelMarkupAssets/bg2.jpg" />
-        </div>
         <div class="roomText">
           <div class="row roomBox">
-            <h3>Our Rooms</h3>
+            <h1 id="rooms">Our Rooms</h1>
             <div class="card roomCard" style="width: 18rem">
               <img
                 src="/hotelMarkupAssets/room1.jpg"
@@ -134,51 +131,177 @@
                 </div>
                 <a href="#" class="btn btn-primary">Reserve</a>
               </div>
-
-              <div class="card roomCard" style="width: 18rem">
-                <img
-                  src="/hotelMarkupAssets/room3.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">King Room</h5>
-                  <div class="card-text">
-                    <b>950 SQ FT room with beack view</b>>
-                    <ul>
-                      <li>One King Bed</li>
-                      <li>Seed Bar, fireplace and large balcony</li>
-                      <li>Small kitchen with a refrigerator and stove</li>
-                    </ul>
-                  </div>
-                  <a href="#" class="btn btn-primary">Reserve</a>
+            </div>
+            <div class="card roomCard" style="width: 18rem">
+              <img
+                src="/hotelMarkupAssets/room3.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">King Room</h5>
+                <div class="card-text">
+                  <b>950 SQ FT room with beach view</b>
+                  <ul>
+                    <li>One King Bed</li>
+                    <li>Seed Bar, fireplace and large balcony</li>
+                    <li>Small kitchen with a refrigerator and stove</li>
+                  </ul>
                 </div>
+                <a href="#" class="btn btn-primary">Reserve</a>
               </div>
-              <div class="card roomCard" style="width: 18rem">
-                <img
-                  src="/hotelMarkupAssets/room2.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Beach Side Suite</h5>
-                  <div class="card-text">
-                    <b>1500 SQ FT Suite with beach view</b>
-                    <ul>
-                      <li>One California king size bed</li>
-                      <li>Second room with fireplace, hot tub, and balcony</li>
-                      <li>Seed Bar and coffee station</li>
-                      <li>
-                        Full Kithcen with a refrigerator, stove, and island
-                      </li>
-                    </ul>
-                  </div>
-                  <a href="#" class="btn btn-primary">Reserve</a>
+            </div>
+            <div class="card roomCard" style="width: 18rem">
+              <img
+                src="/hotelMarkupAssets/room2.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Beach Side Suite</h5>
+                <div class="card-text">
+                  <b>1500 SQ FT Suite with beach view</b>
+                  <ul>
+                    <li>One California king size bed</li>
+                    <li>Second room with fireplace, hot tub, and balcony</li>
+                    <li>Seed Bar and coffee station</li>
+                    <li>Full Kithcen with a refrigerator, stove, and island</li>
+                  </ul>
                 </div>
+                <a href="#" class="btn btn-primary">Reserve</a>
               </div>
             </div>
           </div>
         </div>
+      </div>
+    </div>
+
+    <!-- Packages Section -->
+    <div class="packagesSection container">
+      <div class="row">
+        <h3 id="packages" class="headingText">Packages</h3>
+        <div class="packages container">
+          <!-- Wedding Package -->
+
+          <div class="weddingPackage row">
+            <div class="weddingImg col-6">
+              <img
+                class="hamsterWedding"
+                src="hotelMarkupAssets/hamsterwedding.jpg"
+              />
+            </div>
+            <div class="weddingText allPackage col-6">
+              <h3>Beach Wedding Package</h3>
+              <br />
+              <h5 class="blueText">Starting US $1,500.00</h5>
+              <br />
+              <p>
+                Feel the warmth of the beach as the flames in your hearts ignite
+                during our romantic beach side wedding. All wedding packages
+                include catering, an open bar, and one tier wedding cake (9"
+                Vanilla standard cake). A private dinner for your closets family
+                members and friends will be provided after the ceremony.
+              </p>
+            </div>
+          </div>
+
+          <!-- Full Bloom Package  -->
+
+          <div class="fullBloomPackage allPackage row">
+            <div class="weddingText col-6">
+              <h3>Full Bloom Package</h3>
+              <br />
+              <h5 class="blueText">Starting US $1,000.00</h5>
+              <br />
+              <p>
+                Enjoy the shade of our cherry trees as you join us during our
+                spring time celebration. We invite you to our orchards for
+                cherry, strawberry, and apple picking that is open all day. We
+                end each evening with fresh, vegetable centric dinners along
+                with a live show from local musicians.
+              </p>
+            </div>
+            <div class="weddingImg col-6">
+              <img
+                class="hamsterWedding"
+                src="hotelMarkupAssets/hamsterspring.jpg"
+              />
+            </div>
+          </div>
+
+          <!-- Cheese and seed tour Package -->
+
+          <div class="cheeseTourPackage allPackage row">
+            <div class="weddingImg col-6">
+              <img
+                class="hamsterWedding"
+                src="hotelMarkupAssets/hamstercheese.jpg"
+              />
+            </div>
+            <div class="weddingText col-6">
+              <h3>Cheese and Seed Tour Package</h3>
+              <br />
+              <h5 class="blueText">Starting US $1,200.00</h5>
+              <br />
+              <p>
+                Immerse yourself in the flavors of Cavia with our Cheese and
+                Seed tour. We consulted with connoisseurs from around the globe
+                to bring you the best flavors that nature has to offer, and
+                create our cheeses right here at our local creamery. Cheese and
+                seeds are served all day and nightly spa treatment is provided
+                after dinner.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Amenites -->
+    <div class="container-fluid amenitiesPage">
+      <!-- <br />
+      <br /> -->
+      <h1 id="amenities">Amenites</h1>
+      <p>
+        Here at La Petite Maison, we invite you to enjoy our services in hopes
+        that you have the most relaxing stay we can provide.
+      </p>
+      
+      <div class="row amenitiesOption">
+        <div class="col-2"></div>
+        <div class="roomService col-2">
+          <div>
+            <img class="amenImg" src="/hotelMarkupAssets/24hour.png" />
+          </div>
+          <br />
+          <b>24 Hour Room Service</b>
+        </div>
+
+        <!-- Comp Breafast  -->
+        <div class="roomService col-2">
+          <div>
+            <img class="amenImg" src="/hotelMarkupAssets/breakfast.png" />
+          </div>
+          <br />
+          <b>Complimentary Breakfast</b>
+        </div>
+        <!-- Valet -->
+        <div class="roomService col-2">
+          <div>
+            <img class="valet" src="/hotelMarkupAssets/valet.png" />
+          </div>
+          <br />
+          <b>Valet Parking</b>
+        </div>
+        <!-- Pool -->
+        <div class="roomService col-2">
+          <div>
+            <img class="amenImg" src="/hotelMarkupAssets/pool.png" />
+          </div>
+          <br />
+          <b>Beachside Pool</b>
+        </div>
+
       </div>
     </div>
     <script
