@@ -91,24 +91,22 @@
     color: white;
     margin: 60px;
 }
+
+/* Packages */
+.packagesSection{
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
 .headingText{
     text-align: center;
 }
-.packages{
-    border: 2px yellow solid;
-}
+
 .blueText{
     color: #1F51A8;
 }
 .hamsterWedding{
     width: 100%;
     height: 75%;
-}
-.weddingImg{
-    border: 2px purple solid;
-}
-.weddingText{
-    border: blue 2px solid;
 }
 .allPackge{
     padding: 0px;
@@ -133,4 +131,29 @@
 }
 .valet{
     width: 30%;
+}
+
+/* Reserve Section */  
+.reserveSection{
+    background: #000324;
+    color: white;
+}
+.inputs{
+    display: flex;
+    justify-content: center;
+    border: blue 2px solid;
+}
+.reserveCard{
+    margin-top: 10em;
+    border: none;
+    margin-bottom: 10em;
+}
+.hamsterReserve{
+    height: 30em;
+}
+footer{
+    background: #000324;
+    color: white;
+    padding-top: 2em;
+    padding-bottom: 3em;
 }

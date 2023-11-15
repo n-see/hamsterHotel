@@ -179,7 +179,7 @@
     <!-- Packages Section -->
     <div class="packagesSection container">
       <div class="row">
-        <h3 id="packages" class="headingText">Packages</h3>
+        <h3 id="packages" class="text-center">Packages <br /><br /></h3>
         <div class="packages container">
           <!-- Wedding Package -->
 
@@ -266,7 +266,7 @@
         Here at La Petite Maison, we invite you to enjoy our services in hopes
         that you have the most relaxing stay we can provide.
       </p>
-      
+
       <div class="row amenitiesOption">
         <div class="col-2"></div>
         <div class="roomService col-2">
@@ -301,13 +301,81 @@
           <br />
           <b>Beachside Pool</b>
         </div>
+      </div>
+    </div>
+
+    <!-- Reserve -->
+
+    <div  class="container">
+      <div class="row">
+        <div class="card reserveCard">
+          <div class="card-body reserveSection">
+            <h1 class="card-title text-center" id="reserve">Reserve</h1>
+            <div class="container-fluid">
+              <div class="row inputs">
+                <!-- check in -->
+                <div class="checkIn col-2 changeMe">
+                  <label for="fname">Check In</label>
+                  <input type="text" id="fname" name="fname"><br><br>
+                </div>
+                <!-- Check out -->
+                <div class="checkOut col-2 changeMe">
+                  <label for="fname">Check Out</label>
+                  <input type="text" id="fname2" name="fname"><br><br>
+                </div>
+                <!-- number of guest -->
+                <div class="numberGuest col-2 changeMe">
+                  <label for="fname">Number of Guests</label>
+                  <input type="text" id="fname3" name="fname"><br><br>
+                </div>
+                <!-- Room Type -->
+                <div class="roomType col-2 changeMe">
+                  <label for="fname">Room Type</label>
+                  <input type="text" id="fname4" name="fname"><br><br>
+                </div>
+                <!-- submit -->
+                <div class="roomType col-2 changeMe">
+                  <br />
+                  <button id="clickMe" type="button" class="btn btn-primary">Primary</button>
+                </div>
+                
+
+              </div>
+            </div>
+
+          </div>
+          <img class="hamsterReserve"src="/hotelMarkupAssets/hamsterreserve.jpg" class="card-img-bottom">
+        </div>
 
       </div>
     </div>
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="logo d-flex justify-content-center">
+            <img src="hotelMarkupAssets/Logo.png">
+          </div>
+        <div class="footerText text-center">
+          <br />
+          123 Sunflower Seed Rd., Cavia, California 95205
+          <br />
+          <br />
+          ©LA PETITE MAISON HOTELS LIMITED 1939-2018. ALL RIGHTS RESERVED.
+        </div>
+
+
+        </div>
+      </div>
+    </footer>
+
+    <!-- BootStrap JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <!-- JS -->
+    <script src="scripts/app.js"></script>
   </body>
 </html>
