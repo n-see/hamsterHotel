@@ -29,24 +29,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     padding: none;
     margin: none;
 }
 
 .hook{
     background: #000324;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-top: 8%;
+    padding-bottom: 8%;
     padding-left: 7rem;
     padding-right: 7rem;;
     opacity: 0.8;
     color: #E5FEFF;
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
 }
-.hookBody{
-    border:2px blue solid ;
-}
+
 .paradise{
     display: flex;
     justify-content: space-around;
@@ -55,21 +53,21 @@
 /* Overview */
 
 .awards{
-    border: 2px red solid;
     padding-bottom: 5%;
     margin-top: 4%;
 }
+
 .hamsterChairImg{
     width: 100%;
-    height: 80%;
+    height: 400px;
 }
 
 .awardsImg{
     display: flex;
     justify-content: space-around;
 }
-.coltext{
-    border: 2px green solid;
+.awardLogo{
+    width: 20%;
 }
 
 /* Our Rooms */
@@ -106,11 +104,12 @@
 }
 .hamsterWedding{
     width: 100%;
-    height: 75%;
+    height: 250px;
 }
 .allPackge{
     padding: 0px;
 }
+
 
 /* Amenites */
 .amenitiesPage{
@@ -119,7 +118,6 @@
     position: relative;
     text-align: center;
     color: white;
-    border: 2px solid red;
     padding-top: 5em;
     padding-bottom: 10em;
 }
@@ -140,8 +138,9 @@
 }
 .inputs{
     display: flex;
-    justify-content: center;
-    border: blue 2px solid;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .reserveCard{
     margin-top: 10em;
@@ -149,7 +148,14 @@
     margin-bottom: 10em;
 }
 .hamsterReserve{
-    height: 30em;
+    height: 30rem;
+}
+.submitBtn{
+    display: flex;
+    align-items: center;
+}
+input{
+    width:100%;
 }
 footer{
     background: #000324;
