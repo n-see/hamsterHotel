@@ -16,20 +16,26 @@
   </head>
   <body>
     <!-- navbar start -->
-    <nav class="navbar navbar-expand-md bg-body-tertiary navStuff">
-      <div class="container-fluid">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse navBox" id="navbarNav">
+
+    <nav class="navbar navbar-expand-md bg-body-tertiary">
+      <div class="container-fluid d-flex justify-content-center">
+        <div class="navbar-nav">
+          <div class="col-6"></div>
+          <div class="col-6">
+            <button
+              class="navbar-toggler"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class=""><img src="hotelMarkupAssets/Logo.png" /></span>
+            </button>
+          </div>
+        </div>
+
+        <div class="collapse navbar-collapse navContent" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link logoLinks" href="#overview">Overview</a>
@@ -40,9 +46,12 @@
             <li class="nav-item">
               <a class="nav-link logoLinks" href="#packages">Packages</a>
             </li>
-            <a class="navbar-brand" href="#"
-              ><img src="hotelMarkupAssets/Logo.png"
-            /></a>
+            <li>
+              <a class="navbar-brand d-none d-md-block navLogo" href="#">
+                <img src="hotelMarkupAssets/Logo.png" />
+              </a>
+            </li>
+
             <li class="nav-item">
               <a class="nav-link logoLinks" href="#amenities">Amenities</a>
             </li>
@@ -72,17 +81,18 @@
       </div>
     </div>
     <!-- awards section -->
-    <div class="container-fluid awards">
+    <div class="container awards">
       <div class="row paradise">
         <div class="col-1"></div>
-        <div class="col-lg-3 col-12 hamsterChair">
+        <div class=" col-md-6 col-lg-4 col-xl-3 col-12 hamsterChair">
           <img
             class="hamsterChairImg"
             src="/hotelMarkupAssets/hamsterhomejpg.jpg"
           />
         </div>
-        <div class="col-lg-7 coltext">
-          <div class="col">
+        <div class="col-md-1 d-none d-md-block d-lg-none" ></div>
+        <div class="col-lg-6 col-xl-7 ">
+          <div class="col paradiseContent">
             <h2>Welcome to a hamster's paradise</h2>
             <br />
             <p>
@@ -111,70 +121,78 @@
       </div>
     </div>
     <!-- Rooms Section -->
-    <div class="container-fluid rooms">
+
+    <div class="container-fluid roomSection">
+      <h1 class="text-center ourRoomsTitle">Our Rooms</h1>
       <div class="row">
-        <div class="roomText">
-          <div class="row roomBox">
-            <h1 id="rooms">Our Rooms</h1>
-            <div class="card roomCard" style="width: 24rem">
-              <img
-                src="/hotelMarkupAssets/room1.jpg"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body col-sm-12">
-                <h5 class="card-title">Queen Room</h5>
-                <div class="card-text">
-                  <b>850 SQ FT room with city view</b>
+        <div class="ourRoomsMain">
+          <!-- Queen Room -->
+          <div class="queenRoom">
+            <div class="card roomCard" style="width: 24rem;">
+            <img src="./hotelMarkupAssets/room1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Queen Room</h5>
+              <p class="card-text">
+                <b>850 SQ FT room with city view</b>
                   <ul>
                     <li>One Queen size bed</li>
                     <li>Seed Bar, fireplace and large balcony</li>
                     <li>Small kitchen with a refrigerator and stove</li>
                   </ul>
-                </div>
-                <a href="#reserveCard" class="btn btn-primary">Reserve</a>
-              </div>
+              </p>
+              <br />
+              <br />
+              <br />
+              <a href="#reserve" class="btn btn-primary roomBtn">Reserve</a>
             </div>
-            <div class="card roomCard" style="width: 24rem">
-              <img
-                src="/hotelMarkupAssets/room3.jpg"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body col-sm-12">
-                <h5 class="card-title">King Room</h5>
-                <div class="card-text">
-                  <b>950 SQ FT room with beach view</b>
+          </div>
+          </div>
+          
+          <!-- king room -->
+          <div class="kingRoom">
+            <div class="card roomCard" style="width: 24rem;">
+            <img src="./hotelMarkupAssets/room3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">King Room</h5>
+              <p class="card-text">
+                <b>950 SQ FT room with beach view</b>
                   <ul>
                     <li>One King Bed</li>
                     <li>Seed Bar, fireplace and large balcony</li>
                     <li>Small kitchen with a refrigerator and stove</li>
                   </ul>
-                </div>
-                <a href="#reserveCard" class="btn btn-primary">Reserve</a>
-              </div>
+              </p>
+              <br />
+              <br />
+              <br />
+              <a href="#reserve" class="btn btn-primary roomBtn ">Reserve</a>
             </div>
-            <div class="card roomCard" style="width: 24rem">
-              <img
-                src="/hotelMarkupAssets/room2.jpg"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body col-sm-12">
-                <h5 class="card-title">Beach Side Suite</h5>
-                <div class="card-text">
-                  <b>1500 SQ FT Suite with beach view</b>
+          </div>
+        
+          </div>
+          <!-- Suite -->
+          <div class="suite">
+            <div class="card roomCard" style="width: 24rem;">
+            <img src="./hotelMarkupAssets/room2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Beach Side Room</h5>
+              <p class="card-text">
+                <b>1500 SQ FT Suite with beach view</b>
                   <ul>
                     <li>One California king size bed</li>
                     <li>Second room with fireplace, hot tub, and balcony</li>
                     <li>Seed Bar and coffee station</li>
                     <li>Full Kithcen with a refrigerator, stove, and island</li>
                   </ul>
-                </div>
-                <a href="#reserveCard" class="btn btn-primary">Reserve</a>
-              </div>
+              </p>
+              <a href="#reserve" class="btn btn-primary roomBtn">Reserve</a>
             </div>
           </div>
+          </div>
+            
+
+          
+
         </div>
       </div>
     </div>
@@ -218,6 +236,7 @@
               />
             </div>
             <div class="weddingText col-md-6">
+
               <h3>Full Bloom Package</h3>
               <br />
               <h5 class="blueText">Starting US $1,000.00</h5>
@@ -317,6 +336,7 @@
 
     <div class="container">
       <div class="row">
+        <div class="col-1"></div>
         <div class="card reserveCard" id="reserveCard">
           <div class="card-body reserveSection">
             <h1 class="card-title text-center" id="reserve">Reserve</h1>
@@ -326,26 +346,32 @@
                   <!-- check in -->
                   <div class="checkIn col-md-2 col-12">
                     <label for="fname">Check In</label>
-                    <input type="text" id="checkIn" name="fname" /><br /><br />
+                    <input type="text" id="checkIn" name="fname" class="reserveItems" /><br /><br />
                   </div>
                   <!-- Check out -->
                   <div class="checkOut col-md-2 col-12">
                     <label for="fname">Check Out</label>
-                    <input type="text" id="checkOut" name="fname" /><br /><br />
+                    <input type="text" id="checkOut" name="fname" class="reserveItems"/><br /><br />
                   </div>
                   <!-- number of guest -->
                   <div class="numberGuest col-md-3 col-lg-2 col-12">
                     <label for="fname">Number of Guests</label>
-                    <input type="text" id="guest" name="fname" /><br /><br />
+                    <input type="text" id="guest" name="fname" class="reserveItems"/><br /><br />
                   </div>
                   <!-- Room Type -->
                   <div class="roomType col-md-2 col-12">
                     <label for="fname">Room Type</label>
-                    <input type="text" id="roomType" name="fname" size=""/><br /><br />
+                    <input
+                      type="text"
+                      id="roomType"
+                      name="fname"
+                      size=""
+                      class="reserveItems"
+                    /><br /><br />
                   </div>
                   <!-- submit -->
                   <div class="submitBtn col-md-2 col-12">
-                    <button id="clickMe" type="button" class="btn btn-primary">
+                    <button id="clickMe" type="button" class="btn btn-primary reserveItems checkBtn">
                       Check Availability
                     </button>
                   </div>
@@ -355,13 +381,14 @@
           </div>
           <img
             class="hamsterReserve"
-            src="/hotelMarkupAssets/hamsterreserve.jpg"
+            src="./hotelMarkupAssets/hamsterreserve.jpg"
             class="card-img-bottom"
           />
         </div>
       </div>
     </div>
     <!-- footer -->
+
     <footer>
       <div class="container">
         <div class="row">

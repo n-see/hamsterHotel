@@ -1,8 +1,17 @@
 /* Navbar */
-.navStuff{
+.navbar{
     background-color: #000324 !important;
 }
-.navBox{
+
+.test{
+    display: flex;
+    justify-content: center;
+}
+.navLogo{
+    display: flex;
+    justify-content: center;
+}
+.navContent{
     display: flex;
     justify-content: center;
 }
@@ -19,6 +28,10 @@
     opacity: 1;
     
 }
+.navContainer{
+    align-items: flex-end;
+}
+
 /* Hero Section */
 
 .hero{
@@ -36,10 +49,15 @@
 
 .hook{
     background: #000324;
-    padding-top: 8%;
-    padding-bottom: 8%;
-    padding-left: 7rem;
-    padding-right: 7rem;;
+    border-radius: 0;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    padding-left: 7em;
+    padding-right: 7em;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    padding-left: 7em;
+    padding-right: 7em;
     opacity: 0.8;
     color: #E5FEFF;
     /* border: 2px solid orange; */
@@ -60,6 +78,10 @@
 .hamsterChairImg{
     width: 100%;
     height: 400px;
+    
+}
+.paradiseContent{
+    margin-top: 20px;
 }
 
 .awardsImg{
@@ -71,23 +93,41 @@
 }
 
 /* Our Rooms */
-.rooms{
+
+.roomSection{
     background: url("./hotelMarkupAssets/bg2.jpg") no-repeat center;
     background-size: cover;
     position: relative;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+.ourRoomsTitle{
+    color: white;
+    padding-bottom: 10px;
+}
+.ourRoomsMain{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.queenRoom{
+    margin: 10px;
+}
+.kingRoom{
+    margin: 10px;
+}
+.suite{
+    margin: 10px;
 }
 .roomCard{
-    margin: 10px;
-    border: aqua 2px solid;
+    margin: 1px;
+    border:none;
+    border-radius: 0;
     text-align: left;
-}
-.roomBox{
-    display:flex;
-    justify-content: center;
-    border: orange 2px solid;
-    text-align: Center;
-    color: white;
-    margin: 60px;
+} 
+.roomBtn{
+    background-color: #004CC7;
+    border-radius: 0;
 }
 
 /* Packages */
@@ -98,16 +138,25 @@
 .headingText{
     text-align: center;
 }
-
+.weddingPackage{
+    display: flex;
+    align-items: center;
+}
+.fullBloomPackage{
+    display: flex;
+    align-items: center;
+}
+.cheeseTourPackage{
+    display: flex;
+    align-items: center;
+}
 .blueText{
     color: #1F51A8;
 }
 .hamsterWedding{
     width: 100%;
     height: 250px;
-}
-.allPackge{
-    padding: 0px;
+    margin-bottom: 10px;
 }
 
 
@@ -153,6 +202,12 @@
 .submitBtn{
     display: flex;
     align-items: center;
+}
+.reserveItems{
+    border-radius: 0;
+}
+.checkBtn{
+    border: solid 1px #000DC7;
 }
 input{
     width:100%;
