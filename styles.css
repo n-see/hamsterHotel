@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
+
+.dosis{
+    font-family: 'Dosis', sans-serif;
+}
+.source{
+    font-family: 'Source Sans 3', sans-serif ;
+}
 /* Navbar */
 .navbar{
     background-color: #000324 !important;
@@ -21,6 +30,7 @@
 }
 .logoLinks{
     color: white !important;
+    font-family: 'Dosis' sans-serif;
 }
 .reserve{
     text-align: center;
@@ -54,12 +64,19 @@
     padding-bottom: 4em;
     padding-left: 7em;
     padding-right: 7em;
-    padding-top: 4em;
-    padding-bottom: 4em;
-    padding-left: 7em;
-    padding-right: 7em;
     opacity: 0.8;
     color: #E5FEFF;
+    
+    /* border: 2px solid orange; */
+}
+.hook2{
+    background: #000324;
+    border-radius: 0;
+    padding-right: 10px;
+    opacity: 0.8;
+    color: #E5FEFF;
+    text-align: center;
+    
     /* border: 2px solid orange; */
 }
 
@@ -120,6 +137,7 @@
     margin: 10px;
 }
 .roomCard{
+    width: 24rem;
     margin: 1px;
     border:none;
     border-radius: 0;
@@ -131,6 +149,9 @@
 }
 
 /* Packages */
+.allPackage{
+    font-family: "Source Sans 3", sans-serif;
+}
 .packagesSection{
     margin-top: 3em;
     margin-bottom: 3em;
@@ -160,7 +181,7 @@
 }
 
 
-/* Amenites */
+/* Amenities */
 .amenitiesPage{
     background: url("./hotelMarkupAssets/bg.jpg") no-repeat center;
     background-size: cover;
@@ -181,6 +202,11 @@
 }
 
 /* Reserve Section */  
+/* .reserveWhole{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
 .reserveSection{
     background: #000324;
     color: white;
@@ -194,10 +220,11 @@
 .reserveCard{
     margin-top: 10em;
     border: none;
-    margin-bottom: 10em;
+    padding: none;
+    
 }
 .hamsterReserve{
-    height: 30rem;
+    height: 75%
 }
 .submitBtn{
     display: flex;
