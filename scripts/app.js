@@ -5,7 +5,7 @@ let guest = document.getElementById("guest");
 let roomType = document.getElementById("roomType");
 
 clickMe.addEventListener("click", function() {
-    alert("Access Denied :( ");
+    alert("Access Denied (•ˋ _ ˊ•)");
     checkIn.innerText = " ";
     checkOut.innerText = " ";
     guest.innerText = " ";
