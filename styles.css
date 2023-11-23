@@ -200,11 +200,7 @@
 }
 
 /* Reserve Section */  
-/* .reserveWhole{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
+
 .reserveSection{
     background: #000324;
     color: white;
