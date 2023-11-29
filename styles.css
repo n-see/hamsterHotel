@@ -23,6 +23,7 @@
     display: flex;
     align-items: flex-end;
 }
+
 .logoLinks{
     color: white !important;
     font-family: 'Dosis' sans-serif;
@@ -35,6 +36,9 @@
 }
 .navContainer{
     align-items: flex-end;
+}
+.nav-toggler{
+    border: none;
 }
 
 /* Hero Section */
@@ -124,6 +128,9 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+.card-img-top{
+    border-radius: 0;
 }
 .queenRoom{
     margin: 10px;
